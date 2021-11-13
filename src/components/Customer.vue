@@ -14,15 +14,15 @@
             <div class="col">
                 <div class="form-group">
                     <label for="customerName">CustomerName :</label>
-                    <input type="text" v-model="customer.customerName" class="form-control" id="customerName" placeholder="Enter customerName" name="customerName">
+                    <input type="text" v-model="customers.customerName" class="form-control" id="customerName" placeholder="Enter customerName" name="customerName">
                 </div>
                 <div class="form-group">
                     <label for="customerAddress">CustomerAddress :</label>
-                    <input type="text" v-model="customer.customerAddress" class="form-control" id="customerAddress" placeholder="Enter customerAddress" name="customerAddress">
+                    <input type="text" v-model="customers.customerAddress" class="form-control" id="customerAddress" placeholder="Enter customerAddress" name="customerAddress">
                 </div>
                 <div class="form-group">
                     <label for="customerAge">CustomerAge :</label>
-                    <input type="text" v-model="customer.customerAge" class="form-control" id="customerAge" placeholder="Enter customerAge" name="customerAge">
+                    <input type="text" v-model="customers.customerAge" class="form-control" id="customerAge" placeholder="Enter customerAge" name="customerAge">
                 </div>
             </div>
         </div>
